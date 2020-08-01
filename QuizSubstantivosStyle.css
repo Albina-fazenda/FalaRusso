@@ -1,0 +1,232 @@
+.botaoStart {
+    background-color:  #2E9AFE;
+    height: 70px;
+    width: 220px;
+    margin-left: 690px;
+    margin-top: 120px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color:  white;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid blue;
+  } 
+
+  .botaoStart:hover{
+    background-color:#045FB4; 
+    border: 2px solid black;
+    cursor: pointer;
+  }
+
+  .pergunta {
+    position: fixed;
+    background-color: white;
+    height: 70px;
+    width: 450px;
+    margin-left: 570px;
+    margin-top: 130px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color:  #045FB4;
+}
+
+.container {
+  background-color:white; 
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  height:400px;
+  width: 880px;
+  margin-top: 280px;
+  margin-left: 370px;
+  margin-right: 7px;
+  margin-bottom: 7px;
+  display: inline-block;
+  position: fixed;      
+}
+
+.proximaPergunta {
+  background-color:white; 
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  height:400px;
+  width: 880px;
+  margin-top: 200px;
+  margin-left: 370px;
+  margin-right: 7px;
+  margin-bottom: 7px;
+  display: inline-block;
+  position: fixed;      
+}
+
+.botaoResposta {
+  background-color:#2E9AFE; 
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  height:70px;
+  width: 170px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  display: inline-block;
+  outline: none;
+  box-shadow: none;
+  border: 1px solid blue;
+  }
+
+  .botaoResposta:hover {
+    background-color:#045FB4; 
+    border: 2px solid black;
+    cursor: pointer;
+    }
+
+  .botaoProximaPergunta {
+    background-color:#2E9AFE; 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    height:70px;
+    width: 200px;
+    display: inline-block;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid blue;
+    }
+
+    .botaoProximaPergunta:hover {
+      background-color:#045FB4; 
+      border: 2px solid black;
+      cursor: pointer;
+      }
+
+
+    .final {
+      background-color:white; 
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 40px;
+      font-weight: bold;
+      height:400px;
+      width: 880px;
+      margin-top: 270px;
+      margin-left: 370px;
+      margin-right: 7px;
+      margin-bottom: 7px;
+      display: inline-block;
+      position: fixed;      
+    }
+    .botaoRepetir {
+      background-color:#2E9AFE; 
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      height:70px;
+      width: 200px;
+      display: inline-block;
+      outline: none;
+      box-shadow: none;
+      border: 1px solid blue;
+    }
+
+    .botaoRepetir:hover {
+      background-color:#045FB4; 
+      border: 2px solid black;
+      cursor: pointer;
+      }
+      
+      .botaoEstudar {
+        background-color:#2E9AFE; 
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        height:70px;
+        width: 200px;
+        display: inline-block;
+        outline: none;
+        box-shadow: none;
+        border: 1px solid blue;
+        }
+
+        .botaoEstudar:hover {
+          background-color:#045FB4; 
+          border: 2px solid black;
+          cursor: pointer;
+          }
+
+  .resultadoErrado {
+    background-color:white; 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    height:400px;
+    width: 400px;
+    margin-top: 120px;
+    margin-left: 620px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    display: inline-block;
+    position: fixed;      
+  }
+
+  .resultadoCerto {
+    background-color:white; 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+    height:400px;
+    width: 400px;
+    margin-top: 120px;
+    margin-left: 610px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    display: inline-block;
+    position: fixed;      
+  }
+
+  .score {
+    position: fixed;
+    background-color: white;
+    height: 50px;
+    width: 700px;
+    margin-left: 460px;
+    margin-top: 230px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color:  #045FB4;
+}
+
+.autofalante {
+  position: relative;
+  background-image: url(http://falarusso.epizy.com/_imagens/listen2.png);
+  background-size: 60px;
+  background-color: white;
+  height:60px;
+  width: 60px;
+  margin: auto;
+  color:  #045FB4;    
+  border: none;
+  outline: none;
+  cursor: pointer;
+ 
+} 

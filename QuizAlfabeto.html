@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC >
+<html lang="pt-br"><head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="StyleFalaRusso.css"/> 
+
+<link rel="stylesheet" href="AlfabetoQuizStyle.css">
+
+</head>
+
+<body>
+
+    <div class="header">
+        <a class="logo">FalaRusso</a>
+        <div class="header-right">
+          <a class="active" href="FalaRusso.html">Home</a>
+        </div>
+      </div>
+    
+        <div id="mySidenav" class="sidenav">
+            <a href="Alfabeto.html">Alfabeto cirilico</a>
+            <a href="QuizAlfabeto.html">Quiz alfabeto</a>
+            <a href="Substantivo.html">Substantivo</a>
+            <a href="QuizSubstantivos.html">Quiz Substantivos</a>
+            <a href="quizsubspronoum.html">Quiz Substantivos/Pronome</a>
+          </div>
+
+          <div class="autofalante" id="autofalante">Click!
+            <input  type="image" style="width: 100px; height: 100px;border:none; outline: none;" src="http://falarusso.epizy.com/_imagens/listen2.png" onclick="pergunta(Math.floor(Math.random() * 33) + 1)">
+          </div>   
+
+          <div class="repeticao" id="repeticao"><input  type="image" style="width: 70px; height: 70px;border:none; outline: none;" src="http://falarusso.epizy.com/_imagens/listen2.png" onclick="repetir()"></div>   
+
+          <div class="final" id="final">
+            <button class="botaoRepetir" onclick="document.location='QuizAlfabeto.html'">TENTAR MAIS</button>
+            <button class="botaoEstudar" onclick="document.location='Alfabeto.html'">VOLTAR ESTUDAR</button>
+          </div>   
+          
+          <div class="score" id="score"> </div>
+
+          <div id=container class=container></div>
+
+          <div id=resultadoCerto class=resultadoCerto></div>
+
+          <div id=resultadoErrado class=resultadoErrado></div>
+
+          
+                  
+
+<script src="AlfabetoQuizJava.js"></script>
+
+</body>
+</html>

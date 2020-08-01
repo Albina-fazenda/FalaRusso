@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet"  href="StyleFalaRusso.css"/> 
+    <link rel="stylesheet"  href="QuizSubstantivosStyle.css"/> 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+
+    <div class="header">
+        <a class="logo">FalaRusso</a>
+        <div class="header-right">
+          <a class="active" href="FalaRusso.html">Home</a>
+        </div>
+      </div>
+    
+        <div id="mySidenav" class="sidenav">
+            <a href="Alfabeto.html">Alfabeto cirilico</a>
+            <a href="QuizAlfabeto.html">Quiz alfabeto</a>
+            <a href="Substantivo.html">Substantivo</a>
+            <a href="QuizSubstantivos.html">Quiz Substantivos</a>
+            <a href="quizsubspronoum.html">Quiz Substantivos/Pronome</a>
+          </div>
+
+          <div class="start" id="start">
+            <button class="botaoStart" onclick="startQuiz()">Iniciar Quiz Substantivos</button>
+          </div>  
+
+          <div class="pergunta" id="pergunta"> </div>
+
+          <div id=container class=container></div>
+
+          <div id=resultadoCerto class=resultadoCerto></div>
+
+          <div id=resultadoErrado class=resultadoErrado></div>
+
+          <div class="proximaPergunta" id="proximaPergunta"> </div>
+
+          <div class="score" id="score"> </div>
+
+          <div class="final" id="final">
+            <button class="botaoRepetir" onclick="document.location='QuizSubstantivos.html'">TENTAR MAIS</button>
+            <button class="botaoEstudar" onclick="document.location='Substantivo.html'">VOLTAR ESTUDAR</button>
+          </div> 
+
+
+    <script src="QuizSubstantivosJava.js"></script>
+    
+</body>
+</html>

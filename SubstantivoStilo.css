@@ -1,0 +1,130 @@
+.botoesAzuis {
+    background-color: #2E9AFE; 
+    border: 1px solid blue;
+    color: white;
+    padding:7px;
+    margin-top:7px;
+    margin-left: 7px;
+    margin-right: 7px;
+    height: 1cm;
+    width: 4cm;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    cursor: pointer;
+      
+}
+
+.botoesAzuis:hover {
+    background-color: #045FB4;
+    border:2px solid black;
+}
+.botoesVermelhos {
+    background-color: #F78181; 
+    border: 1px solid red;
+    color: white;
+    padding:7px;
+    margin-top:7px;
+    margin-left: 7px;
+    margin-right: 7px;
+    height: 1cm;
+    width: 4cm;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    cursor: pointer;
+    
+}
+
+.botoesVermelhos:hover {
+    background-color: #DF0101;
+    border:2px solid black;
+}
+.botoesVerdes {
+    background-color: #31B404; 
+    border: 1px solid green;
+    color: white;
+    padding:7px;
+    margin-top:7px;
+    margin-left: 7px;
+    margin-right: 7px;
+    height: 1cm;
+    width: 4cm;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    cursor: pointer;
+    
+}
+
+.botoesVerdes:hover {
+    background-color: #08810c;
+    border:2px solid black;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 50px;
+    border: 3px solid black;
+    width: 40%;
+    height: 90px;
+  }
+  .autofalante {
+    position: relative;
+    background-image: url(http://falarusso.epizy.com/_imagens/listen2.png);
+    background-size: 60px;
+    background-color: white;
+    height:60px;
+    width: 60px;
+    margin: auto;
+    color:  #045FB4;    
+    border: none;
+    outline: none;
+    cursor: pointer;
+   
+} 
+
+  .close {
+    margin: 10px;
+    width: 7%;
+    color:black;
+    float: right;
+    padding-right: 22%;
+    font-size: 38px;
+    font-weight: bold;
+    
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: rgb(197, 31, 31);
+    text-decoration: none;
+    cursor: pointer;
+  }
